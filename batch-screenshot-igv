@@ -1,0 +1,15 @@
+new
+genome genome/DMv6_chr11.fasta
+load test_data/test_WA077.bam
+load test_data/test_IVP35.bam
+snapshotDirectory screenshots
+goto chr11:6164074
+viewaspairs
+sort base
+collapse
+snapshot
+goto chr11:6164799
+sort base
+collapse
+snapshot
+exit
